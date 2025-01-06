@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Add Task</title>
+        <link rel="stylesheet" href="../css/style_add-task.css">
+        <!-- <script src="../js/script_add-task.js" defer></script> -->
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href = "mytasks.html">My Tasks</a></li>
+                <li><a href = "add-task.html">Add Task</a></li>
+                <li><a href = "logout.html">Logout</a></li>
+            </ul>
+        </nav>
+
+        <h1><strong>Add Task</strong></h1>
+
+        <form id="grid-container" action="add-task" name="taskForm" method="post">
+            <div class="grid-element"><label for="task"><strong>Task</strong></label></div>
+            <div class="grid-element" id="ne"><input type="text" id="task" name="task" placeholder="Enter task name" required></div>
+
+            <div class="grid-element"><label for="due_date"><strong>Due Date</strong></label></div>
+            <div class="grid-element"><input id="due_date" type="date" name="due_date" required></div>
+            
+            <div class="grid-element"><br></div>
+
+            <div class="grid-element"><input type="submit" value="Submit"></div>
+        </form>
+    </body>
+</html>

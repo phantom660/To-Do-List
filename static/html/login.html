@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="../css/style_login.css">
+        <script src="../js/script_login.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href = "create-account.html">Create Account</a></li>
+                <li><a href = "login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <h1><strong>Login</strong></h1>
+
+        <form id="grid-container" action="login" name="loginForm" method="post">
+            <div class="grid-element"><label for="username"><strong>Userame</strong></label></div>
+            <div class="grid-element" id="ne"><input type="text" id="username" name="username" placeholder="Enter username" required></div>
+
+            <div class="grid-element"><label for="password"><strong>Password</strong></label></div>
+            <div class="grid-element"><input id="password" type="password" name="password" required></div>
+            
+            <div class="grid-element" id="errEle"><br></div>
+
+            <div class="grid-element"><input type="submit" value="Log in"></div>
+        </form>
+    </body>
+</html>

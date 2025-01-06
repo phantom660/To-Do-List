@@ -1,0 +1,219 @@
+
+body {
+    background: rgb(173,216,230); 
+    background: radial-gradient(circle, rgba(173,216,230,1) 0%, rgba(255,182,193,1) 100%); 
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    color: #333;
+    min-height: 100vh;
+}
+
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    background: linear-gradient(90deg, rgba(255,140,140,1) 0%, rgba(102,205,170,1) 100%); 
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+}
+
+th {
+    background: linear-gradient(90deg, rgba(102,126,234,1) 0%, rgba(255,140,140,1) 100%);
+    color: white;
+    font-weight: bold;
+}
+
+tbody>tr:nth-child(odd) {
+    background-color: rgba(241, 232, 255, 0.9);
+}
+
+tbody>tr:nth-child(even) {
+    background-color: rgba(255, 247, 236, 0.9);
+}
+
+tbody>tr:hover {
+    background-color: rgba(102,126,234,0.2);
+    transition: background-color 0.3s ease;
+}
+
+
+#tasksTable {
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+}
+
+
+nav {
+    background: linear-gradient(90deg, rgba(102,126,234,1) 0%, rgba(255,140,140,1) 100%); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 15px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: rgba(0,0,139,0.7); 
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 105, 180, 0.8); 
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+
+button, 
+#sortButton, 
+#allButton, 
+#completeTaskButton, 
+#incompleteTaskButton,
+#overdueTaskButton {
+    display: inline-block;
+    margin: 10px 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+button:hover, 
+#sortButton:hover, 
+#allButton:hover, 
+#completeTaskButton:hover, 
+#incompleteTaskButton:hover,
+#overdueTaskButton:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button:active, 
+#sortButton:active, 
+#allButton:active, 
+#completeTaskButton:active, 
+#incompleteTaskButton:active,
+#overdueTaskButton:active {
+    background-color: #003f7f;
+    transform: translateY(0);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+}
+
+.deleteButton:hover {
+    background-color: #cc0000;
+    transform: translateY(-2px);
+}
+
+.editButton {
+    background-color: #ffcc00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+}
+
+.editButton:hover {
+    background-color: #e6b800;
+    transform: translateY(-2px);
+}
+
+.markCompleteButton {
+    background-color: #29a401;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+}
+
+.markCompleteButton:hover {
+    background-color: #1c7100;
+    transform: translateY(-2px);
+}
+
+.markIncompleteButton {
+    background-color: #e67a00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+}
+
+.markIncompleteButton:hover {
+    background-color: #a35700;
+    transform: translateY(-2px);
+}

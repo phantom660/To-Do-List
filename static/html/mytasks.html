@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Tasks</title>
+        <link rel="stylesheet" href="../css/style_mytasks.css">
+        <script src="../js/script_mytasks.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href = "mytasks.html">My Tasks</a></li>
+                <li><a href = "add-task.html">Add Task</a></li>
+                <li><a href = "logout.html">Logout</a></li>
+            </ul>
+        </nav>
+
+        <h1><strong>My Tasks</strong></h1>
+
+        <!-- <div id="grid-container"> -->
+        <table id="tasksTable">
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Due Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+        <button id="sortButton" onclick="sortTasks()">Sort Tasks</button>
+        <button id="allButton" onclick="showAllTasks()">Show All Tasks</button>
+        <button id="completeTaskButton" onclick="showCompleteTasks()">Show Complete Tasks</button>
+        <button id="incompleteTaskButton" onclick="showIncompleteTasks()">Show Incomplete Tasks</button>
+        <button id="overdueTaskButton" onclick="showOverdueTasks()">Show Overdue Tasks</button>
+    </body>
+</html>

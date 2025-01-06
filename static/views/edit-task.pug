@@ -1,0 +1,32 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Add task
+    link(rel='stylesheet', href='../css/style_add-task.css')
+  body
+    nav
+      ul
+        li
+          a(href='/mytasks.html') My tasks
+        li
+          a(href='/add-task.html') Add task
+        li
+          a(href='/logout.html') Logout
+    h1
+      strong Edit task
+    form#grid-container(action=`/edit-task/${id}`, name='editForm', method='post')
+      .grid-element
+        label(for='task')
+          strong Task
+      #ne.grid-element
+        input#task(type='text', name='task', placeholder='Enter task name', value=`${task}`, required)
+      .grid-element
+        label(for='due_date')
+          strong Due Date
+      .grid-element
+        input#due_date(type='date', name='due_date', value=`${due_date}`, required)
+      .grid-element
+        br
+      .grid-element
+        input(type='submit', value='Submit')
