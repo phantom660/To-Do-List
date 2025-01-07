@@ -29,7 +29,7 @@
 1. The login username ***bera*** with the password ***RandomPass*** was used testing (Feel free to use this).
 2. **Create Account** tab can be used to create your own credentials.
 
-<!-- ![Login Page](/img/LoginPage.png) -->
+![Login Page](/img/LoginPage.png)
 
 ---
 
