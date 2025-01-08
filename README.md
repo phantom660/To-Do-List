@@ -27,7 +27,7 @@
 ## Notes:
 
 1. The login username ***bera*** with the password ***RandomPass*** was used testing (Feel free to use this).
-2. **Create Account** tab can be used to create your own credentials.
+2. **Create Account** tab can be used to create new credentials.
 
 ![Login Page](/img/LoginPage.png)
 
@@ -35,7 +35,16 @@
 
 ## Features:
 
-1. Once logged in, 
+1. Once logged in, users are redirected to the *Tasks* page, listing all existing tasks.
+2. New Tasks can be *created* using the **Add Task** tab.
+3. Added tasks are marked as *Incomplete* by default.
+4. Existing tasks can be marked as *complete* or *incomplete* and can be *deleted* using dedicated buttons next to the specific task.
+
+![Tasks Page](/img/TasksPage.png)
+
+5. 
+
+![Edit Tasks Page](/img/EditTasksPage.png)
 
 ---
 
