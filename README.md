@@ -42,7 +42,7 @@
 
 ![Tasks Page](/img/TasksPage.png)
 
-5. 
+5. Existing tasks can also be edited using the **Edit** button, which redirects to a page similar to *Add Task* page, but with task details filled in. The Task specifications and deadline can be changed from here.
 
 ![Edit Tasks Page](/img/EditTasksPage.png)
 
