@@ -38,7 +38,7 @@
 1. Once logged in, users are redirected to the *Tasks* page, listing all existing tasks.
 2. New Tasks can be *created* using the **Add Task** tab, which redirects to a page prmpting the task specifications and deadline.
 
-![Edit Tasks Page](/img/AddTasksPage.png)
+![Add Tasks Page](/img/AddTasksPage.png)
 
 3. Added tasks are marked as *Incomplete* by default.
 4. Existing tasks can be marked as *complete* or *incomplete* and can be *deleted* using dedicated buttons next to the specific task.
