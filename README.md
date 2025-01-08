@@ -36,18 +36,22 @@
 ## Features:
 
 1. Once logged in, users are redirected to the *Tasks* page, listing all existing tasks.
-2. New Tasks can be *created* using the **Add Task** tab, which redirects to a page prmpting the task specifications and deadline.
+2. New Tasks can be *created* using the **Add Task** tab, which redirects to a page prompting *name* and *deadline* for the task to be created.
 
 ![Add Tasks Page](/img/AddTasksPage.png)
 
 3. Added tasks are marked as *Incomplete* by default.
-4. Existing tasks can be marked as *complete* or *incomplete* and can be *deleted* using dedicated buttons next to the specific task.
+
+5. Existing Tasks can be edited using the **Edit** button, which redirects to a page similar to *Add Task* page, but with task details filled in. The Task *name* and *deadline* can be changed from here.
+
+![Edit Tasks Page](/img/EditTasksPage.png)
+
+4. Existing Tasks also can be marked as *Complete* or *Incomplete* and can be *Deleted* using dedicated buttons next to the specific task.
+5. Existing Tasks can be filtered to show only the *Complete*, *Incomplete* or *All* Tasks
 
 ![Tasks Page](/img/TasksPage.png)
 
-5. Existing tasks can also be edited using the **Edit** button, which redirects to a page similar to *Add Task* page, but with task details filled in. The Task specifications and deadline can be changed from here.
 
-![Edit Tasks Page](/img/EditTasksPage.png)
 
 ---
 
